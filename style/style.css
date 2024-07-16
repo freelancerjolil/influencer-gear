@@ -22,13 +22,53 @@ body {
   border-bottom: 1px solid #dadada;
   margin: 0 10vw;
   justify-content: space-between;
+  margin-top: 2vh;
 }
 .nav-links {
   justify-content: center;
+  align-items: center;
   list-style: none;
   font-size: 0.8rem;
   gap: 3vw;
 }
 .nav-links a {
   text-decoration: none;
+}
+
+/* banner container */
+.banner {
+  margin: 10vw;
+  margin-top: 50px;
+}
+
+.banner-container-left {
+  /* width: 50%;
+  height: 100%; */
+  width: 582px;
+  height: 287px;
+  border: 2px rgb(229, 30, 8) solid;
+}
+
+.banner-container-left h1 {
+  font-size: 40px;
+  color: #3a3a3a;
+  font-weight: 700;
+}
+.banner-container-left button {
+  width: 196px;
+  height: 44px;
+  background-color: #e02c6d;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+.banner-container-right {
+  width: 50%;
+  height: 100%;
+  border: 2px salmon solid;
+}
+.banner-container-right img {
+  width: 80%;
+  height: 90%;
 }
